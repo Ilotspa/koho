@@ -13,7 +13,7 @@
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", { onProgress: UnityProgress });
     </script>
   </head>
-  <body>
+  <body oncontextmenu="return false">
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px;"></div>
       <div class="footer">
